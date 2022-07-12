@@ -1,13 +1,16 @@
 .home {
-    margin: 30px 30px 0 auto;
+    position: fixed;
     width: 680px;
     height: 840px;
+    left: 730px;
+    top: 30px;
     background: #FBE0DC;
     border-radius: 20px;
 }
 
 .home-image {
     width: 775px;
-    margin-left: -65px;
-    margin-top: -90px;
+    height: 900px;
+    left: 665px;
+    top: 0px;
 }

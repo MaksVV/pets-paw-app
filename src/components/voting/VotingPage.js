@@ -3,7 +3,6 @@ import "./VotingPage.css";
 
 import Navbar from '../navbar/Navbar';
 import BackLink from '../back/BackLink';
-import VotingImage from './voting-image/VotingImage';
 
 
 
@@ -12,9 +11,9 @@ const VotingPage = () => {
         <>
             <div className="wrapper">
                 <Navbar />
+                <BackLink />
                 <div className="voting">
-                    <BackLink />
-                    <VotingImage />
+                    
                 </div>
             </div>
         </>

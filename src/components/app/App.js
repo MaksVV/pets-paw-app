@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Sidebar from "../sidebar/Sidebar";
 import HomePage from "../home/HomePage";
 import VotingPage from "../voting/VotingPage";
+import BreedsPage from "../breeds/BreedsPage";
 
 
 const App = () => {

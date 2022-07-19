@@ -3,7 +3,7 @@ import "./VotingImage.css";
 import VotingButtons from "../voting-buttons/VotingButtons";
 import cat from "./imeges/cat.png"
 
-const VotingImage = ({ image }) => {
+const VotingImage = () => {
     return (
         <div className="voting-image-container">
             <img className="voting-image" src={cat} alt="cat" />

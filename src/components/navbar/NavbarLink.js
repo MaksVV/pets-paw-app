@@ -14,4 +14,4 @@ const NavbarLink = ({ image, to, alt }) => {
     );
 }
 
-export default NavbarLink;
+export default NavbarLink

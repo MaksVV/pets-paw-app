@@ -1,19 +1,25 @@
-import { BrowserRouter, Routes, Route, } from "react-router-dom";
+import "./App.css";
 
-import Sidebar from '../sidebar/Sidebar';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import HomePage from '../home/HomePage';
+import Sidebar from "../sidebar/Sidebar";
+import HomePage from "../home/HomePage";
+import VotingPage from "../voting/VotingPage";
 
 
 const App = () => {
     return (
-    <BrowserRouter>
-        <Sidebar />
-        <Routes>
-            <Route path='/' element={<HomePage />}/>
-        </Routes>
-    </BrowserRouter>
+        <div className="container">
+            <BrowserRouter>
+                <Sidebar />
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/voting" element={<VotingPage />} />
+                    <Route path="/breeds" element={<BreedsPage />} />
+                </Routes>
+            </BrowserRouter>
+        </div>
     );
 }
 
-export default App
+export default App;

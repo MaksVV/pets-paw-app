@@ -1,0 +1,13 @@
+.wrapper {
+    margin-left: auto;
+}
+
+.voting {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    min-height: calc(100vh - 130px);
+    width: 680px;
+    margin: 10px 30px 30px auto;
+    border-radius: 20px;
+}

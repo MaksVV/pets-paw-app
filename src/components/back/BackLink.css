@@ -1,0 +1,42 @@
+.back-link {
+    display: flex;
+    margin: 20px 0 0 20px;
+}
+
+.back-link-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #FBE0DC;
+    border-radius: 10px;
+    transition: 200ms;
+}
+
+.back-link-image-wrapper:hover {
+    background-color: #FF868E;
+}
+
+.back-link-image {
+    transition: 200ms;
+}
+
+.back-link-image-wrapper:hover .back-link-image {
+    filter: brightness(10);
+}
+
+.back-link-label {
+    width: 146px;
+    height: 40px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 40px;
+    background-color: #FF868E;
+    border-radius: 10px;
+}

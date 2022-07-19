@@ -1,12 +1,14 @@
 .sidebar {
-    position: fixed;
-    top: 30px;
-    left: 145px;
-    min-width: 280px;
+    position: sticky;
+    top: 38px;
+    left: 121px;
+    width: 31%;
+    margin: 30px auto;
 }
 
 .sidebar-text {
-    margin-top: 80px;
+    margin-top: 72px;
+    margin-left: 26px;
 }
 
 .sidebar-text-title {
@@ -30,11 +32,16 @@
 .sidebar-links {
     display: flex;
     margin-top: 20px;
+    margin-left: 18px;
 }
 
 .sidebar-link {
     margin: 0 8px 0 8px;
     text-align: center;
+}
+
+.sidebar-link-image {
+    max-width: 138px;
 }
 
 .sidebar-link-image-container {
@@ -67,7 +74,9 @@
     width: 138px;
     height: 36px;
     font-family: 'Jost';
+    font-weight: 500;
     font-size: 12px;
+    line-height: 16px;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-decoration: none;

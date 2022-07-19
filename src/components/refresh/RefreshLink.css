@@ -1,0 +1,27 @@
+.refresh-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #FBE0DC;
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 20px;
+    transition: 200ms;
+}
+
+.refresh-link-image {
+    transition: 200ms;
+}
+
+.refresh-link:hover {
+    background-color: #FF868E;
+}
+
+.refresh-link:hover .refresh-link-image {
+    filter: brightness(2);
+}

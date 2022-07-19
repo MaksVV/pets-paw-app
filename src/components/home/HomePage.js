@@ -4,8 +4,11 @@ import './HomePage.css';
 
 const HomePage = () => {
     return (
-        <div className="home">
-            <img src={home} alt="girl and cat" className="home-image"></img>
+        <div className="wrapper">
+            <div className="home">
+                <img src={home} alt="girl and cat" className="home-image"></img>
+                <div className="home-background"></div>
+            </div>
         </div>
     );
 }

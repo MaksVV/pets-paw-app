@@ -6,6 +6,7 @@ import Sidebar from "../sidebar/Sidebar";
 import HomePage from "../home/HomePage";
 import VotingPage from "../voting/VotingPage";
 import BreedsPage from "../breeds/BreedsPage";
+import GalleryPage from "../gallery/GalleryPage";
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
                     <Route path="/" element={<HomePage />} />
                     <Route path="/voting" element={<VotingPage />} />
                     <Route path="/breeds" element={<BreedsPage />} />
+                    <Route path="/gallery" element={<GalleryPage />} />
                 </Routes>
             </BrowserRouter>
         </div>

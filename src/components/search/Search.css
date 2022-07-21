@@ -27,22 +27,13 @@
     right: 10px;
     width: 40px;
     height: 40px;
-    background-color: #FBE0DC;
+    background: #FBE0DC no-repeat 50% url('images/search.svg');
     outline: none;
     border-style: none;
     cursor: pointer;
     border-radius: 10px;
-    transition: 200ms;
 }
 
 .search-button:hover {
-    background-color: #FF868E;
-}
-
-.search-button-image {
-    transition: 200ms;
-}
-
-.search-button:hover .search-button-image {
-    filter: brightness(10);
+    background: #FF868E no-repeat 50% url('images/search-white.svg');
 }

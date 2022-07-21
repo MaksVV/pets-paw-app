@@ -14,11 +14,10 @@ import { useNavigate, Link } from 'react-router-dom';
 // }
 const BackLink = () => {
     const nav = useNavigate();
-    const text = document.getElementsByClassName('sidebar-link-label').textContent;
     return (
         <div className="back-link">
             <div onClick={() => nav(-1)} className="back-link-image"></div>
-            <div className="back-link-title"></div>
+            <div className="back-link-title">voting</div>
         </div>
         );
     }

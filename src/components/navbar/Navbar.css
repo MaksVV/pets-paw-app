@@ -22,3 +22,7 @@
     border-radius: 20px;
     transition: 200ms;
 }
+
+.navbar-link:hover {
+    background-color: #FBE0DC;
+}

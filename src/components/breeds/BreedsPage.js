@@ -2,15 +2,17 @@ import "./BreedsPage.css";
 
 import Navbar from "../navbar/Navbar";
 import BackLink from "../back/BackLink";
-import BreedsImages from "./breeds-images/BreedsImages";
+import BreedsLayout from "./breeds-layout/BreedsLayout";
 
 const BreedsPage = () => {
     return (
         <>
             <div className="wrapper">
                 <Navbar />
-                <BackLink />
-                {/* <BreedsImages /> */}
+                <div className="breeds">
+                    <BackLink />
+                    <BreedsLayout />
+                </div>
             </div>
         </>
     );

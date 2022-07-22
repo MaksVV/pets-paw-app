@@ -12,9 +12,9 @@ const VotingPage = () => {
     return (
         <>
             <div className="wrapper">
-                <Navbar />
-                <BackLink />
+            <Navbar />
                 <div className="voting">
+                    <BackLink />
                     <VotingImage />
                     <VotingAction />
                 </div>

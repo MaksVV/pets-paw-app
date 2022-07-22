@@ -1,12 +1,62 @@
 import "./BreedsImages.css";
 
-import { Link } from "react-router-dom";
+import image from "./img.png"
 
 const BreedsImages = () => {
     return (
-        <Link className="images" >
-
-        </Link>
+        <> 
+            <div className="images" >
+                <img class="image" src={image} alt="cat" />
+                <div className="imageHover">
+                    <p className="textHover">ajhfkajfhak</p>
+                </div>
+            </div>
+            <div className="images" >
+                <img class="image" src={image} alt="cat" />
+                <div className="imageHover">
+                    <p className="textHover">ajhfkajfhak</p>
+                </div>
+            </div>
+            <div className="images" >
+                <img class="image" src={image} alt="cat" />
+                <div className="imageHover">
+                    <p className="textHover">ajhfkajfhak</p>
+                </div>
+            </div>
+            <div className="images" >
+                <img class="image" src={image} alt="cat" />
+                <div className="imageHover">
+                    <p className="textHover">ajhfkajfhak</p>
+                </div>
+            </div>    <div className="images" >
+                <img class="image" src={image} alt="cat" />
+                <div className="imageHover">
+                    <p className="textHover">ajhfkajfhak</p>
+                </div>
+            </div>
+            <div className="images" >
+                <img class="image" src={image} alt="cat" />
+                <div className="imageHover">
+                    <p className="textHover">ajhfkajfhak</p>
+                </div>
+            </div>    <div className="images" >
+                <img class="image" src={image} alt="cat" />
+                <div className="imageHover">
+                    <p className="textHover">ajhfkajfhak</p>
+                </div>
+            </div>
+            <div className="images" >
+                <img class="image" src={image} alt="cat" />
+                <div className="imageHover">
+                    <p className="textHover">ajhfkasjfhak</p>
+                </div>
+            </div>    <div className="images" >
+                <img class="image" src={image} alt="cat" />
+            </div>
+            <div className="images" >
+                <img class="image" src={image} alt="cat" />
+            </div>
+        </>
     );
 }
 

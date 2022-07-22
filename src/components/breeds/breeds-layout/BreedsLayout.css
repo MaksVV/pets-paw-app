@@ -1,0 +1,12 @@
+.layout-wrapper{
+    max-height: 720px;
+    overflow-y: scroll;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+  
+.layout-container {
+    display: grid;
+    grid-template: repeat(6, 140px) / repeat(3, 200px);
+    gap: 20px;
+}
